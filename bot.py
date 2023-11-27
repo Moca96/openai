@@ -2,10 +2,10 @@ from os import environ
 from pyrogram import Client, filters, enums
 import openai
 
-API = environ.get("API","")
-API_ID = environ.get("API_ID","")
-API_HASH = environ.get("API_HASH","")
-BOT_TOKEN = environ.get("BOT_TOKEN","")
+API = environ.get("API","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")
+API_ID = environ.get("API_ID","28074580")
+API_HASH = environ.get("API_HASH","902a80b6c54c4cbd58e240ee241cfcbf")
+BOT_TOKEN = environ.get("BOT_TOKEN","6877447745:AAEOKZ8MstrvCaElzwTJ3LFHVT04cQ9qzCI")
 
 app = Client(
     "chatgpt",
